@@ -4,9 +4,9 @@ import 'package:dart_application_1/flotilla.dart';
 
 
 void main() {
-  test('Cuando creo una flotilla debe tener 5 tipos de barcos diferentes', (){
-    Flotilla flotilla = Flotilla([Barco(),Barco()]);
-    expect(flotilla.cantidad, equals(5));
-    exp((x) => Flotilla([Barco(TiposBarcos.bote),Barco(TiposBarco.crucero)]), throwA(isA<FlotillaCantidadException>()));
+  test('creaste un barco', (){
+    Flotilla flotilla = Flotilla([Barco()]);
+    expect(flotilla.cantidad, equals(1));
+    expect((x) => Flotilla([Barco(TiposBarcos.values, DireccionesHacia.abajo, puntoInicial: ),Barco(TiposBarcos.values DireccionesHacia.values, Punto)]), throwsA(isA<FlotillaCantidadException>()));
   });
 }

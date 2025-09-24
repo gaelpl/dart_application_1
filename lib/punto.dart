@@ -15,12 +15,6 @@ class Punto{
   }
 }
 
-/*int distancia(punto otro){
-  int p2C = otro.columna;
-  int p2F = otro.fila;
-
-  return(((p2C*p2C)+(p2F*p2F)));
-}*/
 
   
 
