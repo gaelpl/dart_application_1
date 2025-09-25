@@ -1,6 +1,7 @@
 import 'package:dart_application_1/elemento.dart';
 import 'package:dart_application_1/punto.dart';
 
+
 enum TiposBarcos { bote, lancha, submarino, crucero, portaaviones }
 enum DireccionesHacia { arriba, abajo, izquierda, derecha }
 
